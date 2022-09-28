@@ -1,28 +1,18 @@
-
+body{
+    background-color: black;
+}
 
 .logo{
     width: 100%;
     text-align: center;
-    height: 550px;
-    float: right;
-   
-    
-   
-
-    
-    
+    float: right;  
+     
 
 }
 
-.logo img{
-    width: 100%;
-    height: 700px;
-    
-}
 
 .calculos{
     color: beige;
-   
     text-align: center;
 }
 
@@ -37,7 +27,9 @@
     background-color: rgb(0, 0, 0);
     color: rgb(199, 196, 0);
     font-family: 'Courier New', Courier, monospace;
-    float: right;
+    float: left;
+    display: table;
+    
     
     
     
@@ -50,6 +42,7 @@ input{
     border-color: chocolate;
     border-radius:9px ;
     text-align: center;
+    color: black;
 
 
 }
@@ -67,6 +60,7 @@ footer{
     color: rgb(199, 196, 0);
     float: left;
     text-align: center;
+    
    
 }
 
